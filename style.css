@@ -1,0 +1,153 @@
+html {
+background-image: url('oboi.png');
+background-size: 100vw 100vh; 
+background-position: center;
+background-repeat: no-repeat;
+background-color: gray; 
+}
+
+body {
+background-color: white; 
+color: #3b8cd9;
+font-size: 12px;
+margin:5%;
+}
+
+header{
+height: 10vh;
+width: 90vw;
+display: flex;
+justify-content: center;
+align-items: center;
+position: fixed;
+z-index: 1000;
+}
+
+.main_menu {
+position: absolut;
+top: 0; 
+left: 0;
+display: flex;
+justify-content: flex-start;; 
+align-items: center;
+}
+
+.main_menu_obj {
+margin: 0.5vw;
+}
+
+header img {
+max-width: 15vw; 
+max-height: 15vh; 
+width: auto; 
+height: auto;
+object-fit: contain;
+}
+
+ul{
+display: flex;
+flex-direction: row;
+margin: 0;
+padding: 0;
+}
+
+li{
+padding:2vw;
+list-style-type:  none;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+a{
+text-decoration: none;
+color:  #3b8cd9 ;
+}
+
+header::after {
+    content: '';
+    display: block;
+    height: .5vh; 
+    background-color: #3b8cd9; 
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -7%; 
+}
+
+button{
+width:15vw; 
+height:7vh;
+background-color: white ;
+border-radius:15%;
+color: #3b8cd9;
+border-color: #3b8cd9;
+}
+
+.privetg{
+width:100vw; 
+height:40vh;
+position:relative;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+background-color: white;
+background-image: url('scaracot.png');
+background-size: 50% 50%; 
+background-position: left;
+background-repeat: no-repeat;
+}
+
+main {
+display: flex;
+height: 70vh;
+width: 90vw;
+margin-top:10.7vh;
+justify-content: center;
+align-items:top;
+position: relative;
+color:#3b8cd9;
+}
+
+.telo{
+margin: 0;
+padding: 0;
+justify-content: center; 
+align-items: top;
+display: flex;
+}
+
+.telo img{
+max-width: 50vw; 
+max-height: 50vh; 
+width: auto; 
+height: auto;
+object-fit: contain;
+margin:0.1%;
+}
+
+h1{
+font-size: 10px;
+font-style:arial;
+background:none;
+}
+
+h2{
+font-size: 8px;
+font-style:arial;
+background:none;
+padding:3%;
+}
+
+footer{
+height: 7%;
+width: 100%;
+}
+
+@media screen and (max-width: 300px) {  
+	body{font-size:10px;}
+}
+
+
+
