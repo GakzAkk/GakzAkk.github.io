@@ -100,11 +100,12 @@ background-repeat: no-repeat;
 
 main {
 display: flex;
+flex-direction: column; 
 height: 70vh;
 width: 90vw;
 margin-top:10.7vh;
-justify-content: center;
-align-items:top;
+justify-content: flex-start;
+align-items:flex-start;
 position: relative;
 color:#3b8cd9;
 }
@@ -112,7 +113,7 @@ color:#3b8cd9;
 .telo{
 margin: 0;
 padding: 0;
-height: 50vh;
+height: 25vh;
 justify-content: center; 
 align-items: top;
 display: flex;
@@ -155,8 +156,8 @@ width: 100%;
 	body{font-size:10px;}
 }
 
-.clear{
-float:both;
+.elfsight-app-d7c14b97-9e2e-4e49-a31b-5909ef2cc868{
+height: 20vh;
+width: 90vw;
+background:yellow;
 }
-
-
